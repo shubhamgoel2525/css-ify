@@ -1,0 +1,13 @@
+
+body { background-color: #EEEEEE; }
+
+.canvas-layout{
+	min-width: 80vw;
+	min-height: 75vh;
+
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	
+	background-color: #b1b1b1;
+}
