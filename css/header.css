@@ -1,0 +1,44 @@
+
+/* Header Style */
+.links {
+	background-color: #2e3d34;
+	border-bottom: 1px solid #d2c0a8;
+	box-shadow: 0 0 32px #291528;
+	font-size: 2em;
+	font-weight: 300;
+}
+.links > a {
+	color: #F6F7F8;
+	padding: .75em;
+	text-align: center;
+	text-decoration: none;
+	transition: all .5s;
+}
+.links > a:hover {
+	background: #f8e8d5;
+	color: #2F2D2E;
+}
+
+#header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+.links {
+	display: grid;
+	grid-template-columns: repeat(9, 1fr);
+	position: relative;
+}
+
+/* For Smaller Screens */
+@media screen and (max-width:768px) {
+	.links {
+		display: flexbox;
+	}
+		
+	.links > a {
+		padding-left: 20px;
+		font-size: 25px;
+	}
+}	
