@@ -1,8 +1,8 @@
 
 /* Header Style */
 .links {
+	font-family: 'Segoe-light', Tahoma, Geneva, Verdana, sans-serif;
 	background-color: #2e3d34;
-	border-bottom: 1px solid #d2c0a8;
 	box-shadow: 0 0 32px #291528;
 	font-size: 2em;
 	font-weight: 300;
