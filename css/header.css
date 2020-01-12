@@ -31,6 +31,23 @@
 	position: relative;
 }
 
+/* File Upload Styling */
+
+input[type="file"] {
+	display: none;
+}
+.links > label {
+	color: #F6F7F8;
+	padding: .75em;
+	text-align: center;
+	cursor: pointer;
+	transition: all .5s;
+}
+.links > label:hover {
+	background: #f8e8d5;
+	color: #2F2D2E;
+}
+
 /* For Smaller Screens */
 @media screen and (max-width:768px) {
 	.links {
@@ -41,4 +58,10 @@
 		padding-left: 20px;
 		font-size: 25px;
 	}
+		
+	.links > label {
+		padding-left: 20px;
+		font-size: 25px;
+	}
 }	
+
